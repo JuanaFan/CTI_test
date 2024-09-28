@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ioc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b4d282dd-ea37-476c-b81d-64360c8bc2b7" last-modified="2024-09-28T04:15:22" xmlns="http://schemas.mandiant.com/2010/ioc">
+  <short_description>Filtered indicator list</short_description>
+  <description>Filtered indicator list</description>
+  <keywords />
+  <authored_by>Hydro Tasmania</authored_by>
+  <authored_date>2024-09-28T04:15:22</authored_date>
+  <links />
+  <definition>
+    <Indicator operator="OR" id="4010047c-91bc-4ac0-b38a-def79de60803">
+      <IndicatorItem id="0e0ae391-56b3-4fdc-8caf-a4a809f63b70" condition="is">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir" />
+        <Content type="sha1">afdefcd9eb251202665388635c0109b5f7b4c0a5</Content>
+      </IndicatorItem>
+      <IndicatorItem id="234759b0-610a-4f0c-99c2-d44c9180dd5f" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://getyourpages.com/downloads/delt</Content>
+      </IndicatorItem>
+      <IndicatorItem id="17d56157-868f-4283-a038-ba9d288e9975" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">fuhgnnyquotes.bir.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="408a5aa4-6401-44f2-971a-b89e59e8a8a4" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">fruchtboxksnu.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="30fa72e7-83a2-4b6b-b1ce-341c39b1d069" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">luminexharmonicklo.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="047ad91c-6f6c-40ff-aadf-b73fa52b1852" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">cyberstreamdon.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f4b05724-55a3-48b1-93ff-7e56922b0f95" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ybzba.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="eb28d3a2-f720-4806-aa51-61afec9d023b" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">protonteche.com.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8eb6021d-bb9f-438c-9ecf-d81cc9de0034" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">swiftswivelhol.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ffb6381d-c904-4b00-8425-4d95531b8237" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">innovatewavejol.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e19782b7-044c-40cc-8573-2b123bcde03f" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">entertaingadgetop.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ea6cebf9-239e-49a3-98de-06f9ec9345a8" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">sparksynchl.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6b705555-e4a7-4cfd-98de-05c183aa84b2" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">zeniterbytee.cbg.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fca6b9b8-364e-4e76-bb18-7198395a543d" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">luminaluxejol.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="964e5254-b056-481a-bc8a-8b8264745f0a" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">sparksonicoih.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="dc5d2808-3a88-4c6c-91e5-0bc09344e8e3" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">rhinohotel.msk.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7d145085-cade-4f5a-ad1f-b0e0d940a359" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">byteluminovaes.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9f1ca335-e97c-4c86-ba20-27945ae970e4" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">techspectras.cbg.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="86cc2c8a-ac11-4225-9208-8d717751b93a" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">soodeeh.msk.su</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f4914d44-13d3-4ab6-96bd-5d1c73a7f3f6" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gadgetgrooveko.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="28808b83-3f1b-433e-82d3-46d5a6fbcec9" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">minbodybyhilary.msk.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="057f83c2-638d-40fe-938f-5207ed00bc37" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">techpulsehubfe.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8a8af7b5-d95c-43b9-92f6-2a3190d49641" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">lifebuzzinnoro.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="121876e8-f20a-45a0-9d81-475db3f19d34" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">ee986beeb058ec27d0dad9a0a671bbabaa56057102faf30f63397bdbe7fca81f</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c5de049c-8d1a-4697-8913-0ce88465dace" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">3514d2e74b476e1569bbf3311934809c6f8e97df5c9669a5fe475e508886df9f</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5293a7f3-9c2a-4a5d-8b2f-2bd3f451cce4" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">24a850f15a023f59389bf8fd1c33796cf3a5d8d08f77dda049d1c978a1825dde</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0738f61b-7f25-4208-8e01-d155b6c01c13" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">2e44ebe8d864ae19446d0853c51e471489c0893fc5ae2e042c01c7f232d2a2c2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e52b2061-57c1-4406-aec7-5a1c69c1c22f" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">a062fafaff556b17a5ccb035c8c7b9d2015722d86a186b6b186a9c63eeb4308a</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c4fc6611-626b-48cf-9694-8909ef06608f" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">d1492101eb450f0e9badaea254e5551b49297fa4a98c53c939bb96bafd2151fe</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5cdb64b4-a51c-461b-9be9-c6fef588f51e" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">586632c8bb5890c760efc21662105e649177deaf2b2c2eef3ede1da088f23a6c</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e5044c4f-e976-479d-a8de-5104658ba504" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">68bec53e4772eee6c13278a471d669b916cdc797c81d128ee103ee90841fa19e</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cb713041-2eca-4203-a53c-f8765c516059" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">71f114842c30e94c95e57ad394969d5766ca28d056dc724c9820717cf03eb0fe</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1441a073-b20c-425a-9863-8d967d3a3ed6" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">959fd255338558d02c567680625d88f5c48e43827bbb1c408f2d43b01807809a</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bf7e85da-7f9d-4052-b170-32755089333c" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">466684ad5755c9ee6080ff2a01646824c63a90d3e5be923581b89c707267e79f</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6c87e19c-435f-4001-bac9-8184894a9af5" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">f67ce881d31e7475d3bd70cad8bdc8fe0e8fd5f66b87ede0e49109395f7033aa</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8df89fca-90a3-446d-8343-9c19edaf5920" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">e2f4b2d71e02b49a2721a88eea7bf7308143ee55d7d8119e5e291eafd4859af5</Content>
+      </IndicatorItem>
+      <IndicatorItem id="875bf2db-07aa-494c-9079-fb2895332a49" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">ea18df47214ac1f96a75b1dffbe510b2855197490bc65f47886b25fc7e8aca15</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0d4bcb23-47c1-404f-a67a-9040d9009d6e" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">533f47bc4997eed0491f58f24d45c7850cb460da252de90635938e095b5fc213</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d3312761-327e-45ac-9cfd-39e3e84071c1" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">c2bed145cf09022ee6a378dc5e9b3ae49b7c95a6551fa7310a1d997f93f6e2d1</Content>
+      </IndicatorItem>
+      <IndicatorItem id="067da19e-c77c-4832-b14d-4d4b93bb669b" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">99071b9df19024480e1b6d7049e6713486418759b7f0191643776bd0ac08172b</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9b33362c-dcf4-4bab-9df5-bd35c8859fad" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">756b9d6f50bd56adca1fa3d48ff07edf8ee3cc568fb32cbdd892403670343b43</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1014b0a9-70c0-40b0-826d-12b1ace5c48b" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">d69a4a7aa3144ee7ec35e7c3a3a4220f5a43bc29cc4cfa0f27fef60b4d93de8d</Content>
+      </IndicatorItem>
+      <IndicatorItem id="451b4f66-22b5-45e4-b95a-19afaac2bb0e" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">107ba73ae05ec6ba6d814665923191f14757015557eeeff16206cc957da29be3</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0a783f36-8be5-4d9f-b136-848767ca4364" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">14a9a74298408c65cb387574ffa8827abd257aa2b76f87efbaa1ee46e8763c57</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d4d4904d-a7f7-4e79-b89e-2352a18e2884" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">8ebb12d253a4b4c28435b25478abb590e94bdb55b83c55cda6d44c58a03bf9be</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d873bb90-23cb-4108-be34-79f6a18aeb0f" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">56cb16589ab852de4900496ef74212c17902867e90253b4d9d7f335ef7d45a7b</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b090657a-48a1-4582-bc08-fda75f74f6f8" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">c662f5c851314d952cf3594232a7db5b96cb528716cd71bf38393b647cfd4c82</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8ee7df01-0ad7-4730-b9d9-798eb36a0fc7" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">f452b787e47493e89078e884bf92c61626e6ff4b9bc8eee8ae3728ddc65b7e46</Content>
+      </IndicatorItem>
+      <IndicatorItem id="669a97e7-7f64-454b-927e-abf1b4b54564" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">fd68b49acf9234a8592497ef1d675acd57c6a67c6975313772d12c837f3264d1</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5f4bbd55-efe6-42f9-82b9-e2491d49fcc3" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">565fa2992212c89bdec334c0fd318b3fd2c91707431fd8186016f11645925892</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f1980aad-8574-460b-a897-5e6912bdee74" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">df0e16a29c9dffe2ff7b3d4c957af7459fd7e6fa8026d067202912b997773749</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ee2e4d92-b9ec-44d2-ab79-da8521618e9e" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">3278c06b5510edabb3318aa1892eb7e426e97946b86eea925965a46ba1725ebd</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7320c4c0-8a97-4b85-9ae8-7c4264e8de7f" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">3b9ef9701ea2b2c1a89489ed0ed43ffabec9e22b587470899c0d5aca1a1e4302</Content>
+      </IndicatorItem>
+      <IndicatorItem id="29394cac-8cd2-4ecc-8d3f-c90a708a5e1a" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">9dd62afdb4938962af9ff1623a0aa5aaa9239bcb1c7d6216f5363d14410a3369</Content>
+      </IndicatorItem>
+      <IndicatorItem id="883a2c80-3423-49c5-8e8d-7f4910233316" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">d8747574251c8b4ab8da4050ba9e1f6e8dbbaa38f496317b23da366e25d3028a</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0126e0e9-304a-4523-8711-e74a5cb7696c" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">7c520353045a15571061c3f6ae334e5f854d441bab417ebf497f21f5a8bc6925</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1023bb3b-aeb5-40f0-b777-ad418b551b8f" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">b63bc07202491a4dcd34cc419351edb2f2c395b2671d7acf7bfc88abada344ec</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6a684fde-92d1-4b2f-ab9e-91ed02f5a6fc" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">44d2d35ca87bf4292e4586bd08f3fe51d3fff693fed2f9795ff49733338ae8a7</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3cee34be-9b8d-4f04-86ca-ecd7fd9b26d6" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">afed5635fa6d63b158fc408d5048bf2dafd6da210a98f308c02c94514ae28fc8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="25d74f4d-6863-4b6b-a250-17338ab3071e" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">b37b244595cac817a8f8dba24fbea208205e1d1321651237fe24fdcfac4f8ffc</Content>
+      </IndicatorItem>
+      <IndicatorItem id="aa5d54b4-15a7-4bb7-9df0-595ae644dbcf" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">de08f83a5d2421c86573dfb968293c776a830d900af2bc735d2ecd7e77961aaf</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9033d297-5af0-4b65-8c18-f9c493e35caf" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">d32d7e86ed97509289fff89a78895904cf07a82824c053bfaf1bc5de3f3ba791</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e4329178-f3b0-4feb-8450-11eab459151e" condition="is">
+        <Context document="RouteEntryItem" search="RouteEntryItem/Destination" type="mir" />
+        <Content type="IP">103.15.29.17</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d46816fc-d242-4847-9b9b-33d61998af5f" condition="is">
+        <Context document="RouteEntryItem" search="RouteEntryItem/Destination" type="mir" />
+        <Content type="IP">154.90.32.88</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1831a9ca-569b-4fce-bcb4-d2b1bedf09f1" condition="is">
+        <Context document="RouteEntryItem" search="RouteEntryItem/Destination" type="mir" />
+        <Content type="IP">47.76.87.55</Content>
+      </IndicatorItem>
+      <IndicatorItem id="20ce6dbb-ff1e-4ceb-a1d1-e2b8073b6436" condition="is">
+        <Context document="RouteEntryItem" search="RouteEntryItem/Destination" type="mir" />
+        <Content type="IP">47.253.106.177</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4d569994-4229-478b-8570-f6c8be504cf3" condition="is">
+        <Context document="RouteEntryItem" search="RouteEntryItem/Destination" type="mir" />
+        <Content type="IP">16.162.188.93</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d4ae5e00-a161-4e46-8301-a25b7ba8889a" condition="is">
+        <Context document="RouteEntryItem" search="RouteEntryItem/Destination" type="mir" />
+        <Content type="IP">18.163.112.181</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6a19eccd-5ffd-4204-96b9-8d376cd838f5" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">www.ynsins.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9937329a-133a-4ef0-be3a-88f63f0bde53" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">www.aihkstore.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5cc2cffe-e22e-49ca-b991-77c81db715d2" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">www.bcller.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5d4a27bf-934e-43f4-956e-5a302f543e7e" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">lifestylegadgetrypo.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8dbc26e4-0760-4e94-b200-3379d8ab93ac" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">bytenexilumesi.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3bdc2efe-36bd-4a0c-8ba1-3ef2f136e876" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">lifestreamtechho.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cac9e010-baf9-4ec1-90f9-ffe1a7bb7712" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">innovazeor.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8d7ce78f-15f8-4d10-97fc-8cb7a983772e" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">entertainpulsetecheo.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="641a4257-d313-479c-97e9-fdda3d4b9220" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gadgetlifesceneo.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a4685149-fcfe-407b-a0c4-9c4e1fd5763d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pecagroup.com.au/claims</Content>
+      </IndicatorItem>
+      <IndicatorItem id="74eb93e8-35fa-4abe-86e9-16a94dd0dcf3" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://app.signitic.com/l/L3JpQ1h6THJKRU1tY284S1J4QmU5QT09-VjFWNTBIYlNCUDdIbXlxKzJyRzFPUT09</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1f9b8198-1281-4ac5-8130-97bb8a53b8ff" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://nwpayinb-austax.online</Content>
+      </IndicatorItem>
+      <IndicatorItem id="643e21c7-19f0-4d4c-87c4-4d7361623c78" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pub-2bf42e55d7d24e5bab67ddfdbcc63495.r2.dev/gov4.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="911894b9-b934-4972-bd9c-8c207b195f5d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://227926sa.com/mygovau/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b62b9172-6386-4b4a-9e64-5b209c42c3a3" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://urlat0govlogin.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="080c7494-d517-4fa1-97d9-c89c0260d31c" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">lawtennessee.cfd</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6e9df4b8-1d91-436e-97d0-069d0ac65c6a" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">digitalgadgetfusionmo.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ba3f0e61-7956-4b1e-b2ee-14b1d2f39d81" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">nexusloom.msk.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bb9c61c6-bae3-413b-a4be-c78b856c43b2" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">taylorbisonon.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9b3af4fd-4fab-47af-b371-9b721f4336b4" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">m3mas-apicookies.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cbfae392-ad59-4d25-bff0-9a9c0912f0ab" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://cdn.filestackcontent.com/wf99avH8Se6t2Fjc6Jxb</Content>
+      </IndicatorItem>
+      <IndicatorItem id="193e0507-b2eb-4dbe-8b66-3fad5685dbf8" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://clancyqs.ie/wp-in</Content>
+      </IndicatorItem>
+      <IndicatorItem id="acfd4f0f-eae3-4516-9d19-679d9b2a90e2" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://sec-medi-care-au.ru/hgsggs/log.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="662adab7-9282-40f1-a429-2bb982072904" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://snip.ly/gmfyxy</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5dee4081-ccf9-4d89-9f0f-b28740510dee" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://completedigital-signin.cc/home?utm_source=sniply&amp;utm_campaign=sniply&amp;utm_medium=sniply</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e2406e01-635e-4266-91bd-83ef5570c6ba" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">firstfridayguideks.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0fa4a0cf-0a30-4268-aa61-fa5475caff3d" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">techlifestylewavedo.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2c8aa9d7-95f6-49f4-b6c3-fa0752b96a9c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfLe5c</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7299bfd4-0a2a-4ee2-bb44-d0df1d7316a2" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://quickdisplayassessment.tech/css/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="97704689-2a8e-4674-a53b-8e37da9da88c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myservceqovcare.site/sss/main.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="91f58a05-0379-4d2b-9a09-6e5e0d7da388" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://2024income-return-au.ru/as</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f6dfc94f-4d72-4e04-952b-2897109dd5dc" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://sites.google.com/view/ato-gov00/home</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f1a78842-b8c6-43a9-8cb3-aca7b444ae44" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://btntva-alart.online</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e6e5ee8d-fb5d-48cf-954e-478af1d79510" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://austxrefonline.info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="db8fb94f-aaad-4984-b99c-e5acac7cc013" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://myato-austatemnets.online</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8b9d028d-7a5c-478b-8064-3020830b095e" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://refundableato.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6d3232b6-5e8c-4a66-b1bd-29874db218ea" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://ausmygov.info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="89ab049d-f449-43cc-befd-f45c071415d0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://commebbank.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4da926f8-1503-436e-8228-be4b26e311ff" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://mygovat0.us</Content>
+      </IndicatorItem>
+      <IndicatorItem id="af35a5dd-5bee-47d7-97a9-b32811b3cbb3" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://incomestatement.website/home.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6340a48d-22ef-422e-971c-55d39287c1c3" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://allauatosettlement.xyz</Content>
+      </IndicatorItem>
+      <IndicatorItem id="288c998b-995f-4076-9f5f-368c773030c6" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://at0paydeptau.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="23032272-d063-404e-83d4-43c6f3293d2e" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://atomygig.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="49d9abf1-7492-451b-9811-372163cff654" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://snip.ly/3rbz32</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fccc9003-6ba4-4ce5-b9d8-75e4927d6707" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myqov-urgent-massage.cc/2024</Content>
+      </IndicatorItem>
+      <IndicatorItem id="46662b75-c9f8-448d-abed-4a5c96d175c2" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://govshost.link/in/login/home.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="22cc8b8d-6125-4614-8ac5-ef1b43d31d12" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://2c806ebca6.nxcli.io/wp-admin/12a4df8fc6dev</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8b2a45bf-f693-45a7-9e53-943019690678" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://ausmedonline.site</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1f32015d-e5c9-4159-b7c5-f50342431d49" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://t.ly/QBAhk</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9a831b24-3c21-47bd-9f36-0a28040b8446" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://greenpower.com.mx/Redirect/htdocs/home</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9fa9adc8-3837-4cee-a6a4-5b5e11df03ee" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://banexverif.de/My/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3387c7c8-e24d-4fcf-9484-b7b9e8f0a31e" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://accountservices.su/Ato/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="680762a4-a44d-4b15-8263-5e5f749c7ed7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://www.domax.lv/wp/ATOSMS/ATO</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7e2a977c-9ee0-484d-b389-f8aa96483855" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://new-claim-report.de/uc</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6b74b033-f3d3-49cb-a351-f4fe446dee78" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfOgwH</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c3e436a0-53ac-48cc-9404-11685efd3aa0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://login.benkprn.com/GKXVXCzN</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1b93ea45-68d5-4912-8ab6-ccda9769d96b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://austaxaccount.com/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4378858d-5afa-4324-8335-5588ffea08a9" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://claim-lncome-statement.cc/2024</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6679b6da-f913-4334-b308-3da0eb609331" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://fperez.archive.us-east-1.oortech.com/yorez/altd?signature=02ad918d26d72579debd377bcccb3216bae234cfe6fb784f42c63be093760b69ec5655b34528de5630fc4a5db8d561cedb7b1af7e83ec5b6ae65cc797d7380eca2a11ee15cffd4483e1b74ce6536fb4272358a7a9719bf6964795cccce2548ce&amp;provider=#email[@]test.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="158c58cf-3514-401c-aa24-1f1babff1e7a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://snip.ly/5il7xb</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d3baf5e0-63b0-4852-8f75-ad1dc0ea012a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://auth08diiedoeratorrx.xyz/atoreview/MYGOV-ATO/?utm_source=sniply&amp;utm_campaign=sniply&amp;utm_medium=sniply</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ee314d22-32b7-4f69-998c-2c6ff496cbf7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://incomestatement.website/access</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fe5cf7a2-87f8-4f8f-8120-0cb25696ad94" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://nat0glogingov.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c8148eaa-46a8-4e24-807b-e9df7c46eda0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://online-auth-mygov.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="536755eb-06eb-4706-932a-acba438daf4f" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://saskatoonpropertytax.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9c956990-57b2-4d31-9120-0daa513ef385" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://westpac-clientcorp.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="de921069-0b34-4c1f-9c5e-4d975c016cb9" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfOaGh</Content>
+      </IndicatorItem>
+      <IndicatorItem id="02e5e501-e644-4e0d-9798-822b4695cc9e" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://fionnabhair.checkmessage-au.icu</Content>
+      </IndicatorItem>
+      <IndicatorItem id="14b3ba76-298a-4a7b-a7cd-b4c0396ef1e6" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://login.onlineservicesato.au.messagingau.cloud/execution/message</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b9f62635-32d5-4363-b25a-a4752cd45cf5" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://superannuation.ru/atiio/log-in/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d5664b2e-6e8f-41d8-9796-76fde1dcc99d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myauportal.info/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="91ebe66b-4d63-403f-8292-69115288cac5" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://shoutout.wix.com/so/9cP5nvLAo?languageTag=en&amp;status=Draft&amp;cid=00000000-0000-0000-0000-000000000000</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f72ff5eb-79b3-4896-a3ce-13f54b8cbf81" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://assets.codepen.io/12983995/OMAG.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="278a1ff7-32d9-423c-9b54-57ceebbf8cd8" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://escuelainfantilcreser.com/ATO/redir.php</Content>
+      </IndicatorItem>
+      <IndicatorItem id="76b79cf8-8c90-4905-8a20-693c786982ad" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://www.domax.lv/wp/ATOSMS</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7eeecf0b-27d9-41db-bad8-5f8cfc8dae40" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://docs.google.com/presentation/d/1b-aAjPyXAAIUunaA6GPgWFNdKO345L-FtZDdQgw-Tbs/pub?start=false&amp;loop=false</Content>
+      </IndicatorItem>
+      <IndicatorItem id="255d1c48-9354-4c94-baf8-6b94e5255ea4" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://online-status-claim.de/view</Content>
+      </IndicatorItem>
+      <IndicatorItem id="849f354a-fc85-4d6d-83d8-3ec3ef94b528" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myatostipendsau.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="faa89fdb-dfff-4acf-a69b-7517204df952" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myqovonline.com/ato</Content>
+      </IndicatorItem>
+      <IndicatorItem id="dbc8e1be-6433-4738-9606-aad78924839b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myservicesapp.me/inbox</Content>
+      </IndicatorItem>
+      <IndicatorItem id="13dde32b-e5e9-48d4-9b22-246de0c4d766" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://tinyurl.com/ytpzztue</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ae9faa8f-afec-491b-9077-224262799743" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://workforce-au.info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="947d2a27-111a-469e-a99d-cf2043f7444c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://msupportgrant.de/ato/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b4c38aaa-4e60-41cf-bc90-5ad4010bbeb5" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://au-g0v-sup-efrain234gamer231289.codeanyapp.com/A/MyGov/d40cc22fc0e3e1e4281d67293a811bdd/app/gov.php</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f85873db-cfc2-4922-9ea6-e9c2f72725e4" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myato-austatemnets.online/css</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3cad4af7-c6f6-416a-84f6-55e2cb912803" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myatoauthenticationservice.ru/myAtoo/login/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="86454f82-9bdc-4d5d-8f58-26e9220fca7c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://acceptapprovalfund.xyz/auz/?utm_source=sniply&amp;utm_campaign=sniply&amp;utm_medium=sniply</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d074dbb2-d0ad-4c8e-ab5e-3d4a3ada3b5a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://shoutout.wix.com/so/9cP5nvLAo/c?w=8QIwjQO_OBNedhBescvc2y9SONLay9RXAmP5lGEEeOQ.eyJ1IjoiaHR0cHM6Ly9zaG91dG91dC53aXguY29tL3NvLzljUDVudkxBbz9sYW5ndWFnZVRhZz1lbiZzdGF0dXM9RHJhZnQiLCJtIjoibWFpbCIsImMiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAifQ</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7ff53ff6-429d-43b8-a926-972ae39972d4" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfatopaye</Content>
+      </IndicatorItem>
+      <IndicatorItem id="60bb623f-5e6a-48bb-90f7-188f296c9a9b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://apaefttoayment.com/ato/conect/mygovlogin/log.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6bd8a344-df5d-4ab4-858d-c07fa5ecf20f" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://ssl-secure.su/my_G0v/login</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c0187626-439e-4889-85f3-33c749329347" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pub-56272e34de124acbb47e7f5a640f5433.r2.dev/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="74f1204c-1d25-4f63-b38a-61673f0cb139" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://govshost.link/login/index.htm</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f9c05469-6186-4253-97b2-024ad0373d6d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://completedigital-signin.cc/home</Content>
+      </IndicatorItem>
+      <IndicatorItem id="73858c70-e80f-4dbb-8289-a2880cdbfa4e" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pub-311bd51129114c80bb36887d1715e92f.r2.dev/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b49cdf55-2dac-4600-8a39-a303c4811d78" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/0xafsdeyGS10-Vez-063v-83v328-s853V-bfs43-sgg218</Content>
+      </IndicatorItem>
+      <IndicatorItem id="adb13434-5e55-46b6-af14-403fda6ce441" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://digital-myqov-poro.de/view</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a646b70c-5873-4ad4-9bfa-e23fd1ff00bf" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">shih-tzu-fancierson.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1accb72b-841b-4b8c-b9b5-465bc99ecff4" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">urbantechvibesio.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="dd91472b-6f93-4de2-aab6-57f42763d596" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pub-b20c0cfce7c44af7af28014e59e90bf5.r2.dev/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="66d056f6-acde-4c71-9bae-05843a40a1c0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://conta.cc/3ZrBiy3</Content>
+      </IndicatorItem>
+      <IndicatorItem id="be53498a-8314-4aef-853b-332ee927b6d5" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://paidikafolitsa.gr/home</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e40a68a7-cd50-48ef-9d72-584fca86167b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://cdn.filestackcontent.com/hqtj3NTQGOIb6y7O97Ow</Content>
+      </IndicatorItem>
+      <IndicatorItem id="453a96e8-f2a0-4d01-b701-2874f2f23228" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pub-e61ab72439bd461e9e6739c94ba35789.r2.dev/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b7b59ccb-f92c-4d4d-86ee-146f49b64465" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pub-b2de9102c8e24cc5a42008901dd370fe.r2.dev/4.html?ref=782428#B64aW5mb0Bza2lubnlmaXNobXVzaWMuY29tLmF1</Content>
+      </IndicatorItem>
+      <IndicatorItem id="56fb56be-41fa-4d7b-b364-b1bd1623247a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://mobile-accountservices.com/ato000X/cores/Login.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2408bb5a-3f4a-40ba-a76b-146b1fb47b27" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://ausref-taxstatus.online/mygov</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9b93f291-0dfe-4949-9837-9ff21298eded" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://login.benkprn.com/las/mygov-login?execution=e5s1</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7928246e-7ed9-4b95-8ed3-a0b649328a7c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://auth.benkprn.com/error/display</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b79287b7-17a4-495d-8c9f-468e8a40db35" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://noticeofaccessmentupdatenowpdf.su</Content>
+      </IndicatorItem>
+      <IndicatorItem id="77e9c1f8-946f-48a3-8438-a1335c6c5024" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://accessincomestatement.ru/Approved/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="729f7774-a3d6-4fb1-adaf-c7a9422fe40b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pub-17002011468b4505a334973e09d30e00.r2.dev/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c07c2e8e-fb1d-4ef5-85d3-0ce32d2e93b8" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://louse-alart.online</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d3fc7c61-cc93-4921-a42f-94bc9bbd63be" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://inmyservice.one/home.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ea0d1a9d-fd55-4629-9bd7-6895ebaa5339" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfP1Js</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6e80d526-dcfd-4239-bbba-f7c7ad5a6672" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://prepworkauserv.com/payments</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cfdc21a7-9787-4549-9cd6-77a37467a0b2" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pub-81eb8c0ce0944490905d029d641ed257.r2.dev/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="da38d607-0026-4fbe-bd94-2fc64f8fd8a7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://www.805stats.com/ato_cloud/index.php?data=dXNlcm5hbWU9YWFhYWFhYWFAYWFhYWFhYWEuY29tJnBhc3N3b3JkPTExMTExMTExMTExMTExJkFQST02NmFiYTIyNDAwMmMwYjRhMmJmMg==</Content>
+      </IndicatorItem>
+      <IndicatorItem id="07cb881a-7d22-4452-87b5-16f2c58f154c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://adlmnteams.icu/sabstoo/login.php?mygov_id=1T1hE9XTKxb4yVBcwAgpN79sbAGvckiF&amp;country=&amp;iso=</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9a6c5697-320c-4103-884f-8f9b3c264868" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://renew-sub1.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cec5b503-7b8c-4dcc-8122-0aa7ce34a80a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://noticeofaccessmentupdatenowpdf.su/Mygov/home.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="264741a8-71a8-4f69-9a00-7664bb2196c1" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://your-authenticatorprocessing.ru/1qwQtyhWdpo098SfdsQdcghjtewsxSDDEwfggt/letternow</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fb6878a5-9858-4fd3-8fd7-f414088c4bd8" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://cdn.filestackcontent.com/GEhqItdaRuTsO9uwbfcW</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a0b83dfe-abfb-4283-9dd4-674d0aa01b67" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://kuafman.com.au/auth</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3ac2c86c-2798-49e3-8454-69237db876b4" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://previewaccessmentinfo.su/notice/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2a6f07f7-f486-48da-ba69-7ea7291b67de" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://cuntaussie-auquotamaxed1cosyau.com/cylnm73bq2/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d7d7ec2e-dc0f-4173-9a97-d13f984609b3" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://t.ly/UqSmd</Content>
+      </IndicatorItem>
+      <IndicatorItem id="218685e9-11de-481f-af1c-7821e473a5a0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://srv0au-srv0.dynv6.net/ds/555e2e63/4cda?6ebcfeea=9b56e9a9edcf3030a2a097e14e7dbb96</Content>
+      </IndicatorItem>
+      <IndicatorItem id="73fce61b-bb00-4b4b-a094-ed3ca4144078" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://xtiiti.online/EZXSJw</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3361486e-b26f-498d-90c7-ad9a4011402c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfatopaye</Content>
+      </IndicatorItem>
+      <IndicatorItem id="45d61a64-e36c-4f60-93f9-93ff8d8abbd8" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfOO8t</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fa1fd195-aeaf-42ec-b03c-25347231954a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://previewaccessmentinfo.su/notice/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="86e319b9-ba2f-4bc3-a3ea-068ea03b6766" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myatoauthenticationservice.ru/myAtoo/login/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="abe84aba-843a-4473-bc32-6654a98608d2" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://shorturl.at/RHe1g</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3320799f-2fab-47ad-8608-48077aad0882" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://glaciermain.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="55814b57-7d4a-4a48-bd08-a30f69477694" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://healt4ndrenth3lpzasto.mom/access</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c0a6c5c-0d36-49c8-9fdb-2a4810bcacb2" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myqovonlineservces.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ee38770f-bd9b-4e3d-bea4-681b4d047966" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://atlasvisit.site/viewmyprofile/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e6feb8a8-a5f4-4a53-aaab-f285104ae98d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myauportal.info/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c634c364-4ab6-4968-b877-3cc42acb8596" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrcodes.pro/1CMzxS</Content>
+      </IndicatorItem>
+      <IndicatorItem id="346aa507-b1e2-4a3f-8310-8c054190d3dc" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myrevisedat0assesments.online/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fe60532c-c93c-488e-b3e7-dd221299d4cc" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://loginatoportal.de/notify</Content>
+      </IndicatorItem>
+      <IndicatorItem id="62ad0b35-9aa2-4111-bbb8-5c4cef81c53d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pub-64fbefd0d79e478d97efc2b3509f8205.r2.dev/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1a805681-898d-4586-b2b3-054edc90cdf3" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://t.ly/Aa_Kd</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fb93f862-c30e-4ed3-853d-ab64ab88e59e" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://banexverif.de/Go/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fb57e0d2-a993-44eb-80ed-616e65e10b4b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://qrco.de/bfOljX</Content>
+      </IndicatorItem>
+      <IndicatorItem id="34479f31-8065-4023-a173-08d609316f93" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://expoartes.com/ato.au</Content>
+      </IndicatorItem>
+      <IndicatorItem id="be0c88ba-66da-4d01-aa62-70c71a26b0e5" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://judignnc.pro/Aupay</Content>
+      </IndicatorItem>
+      <IndicatorItem id="01dfcd9f-e5c7-4d0a-ad62-12d391ca7b54" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://statementrefrencecan.xyz/service.austra.govlink</Content>
+      </IndicatorItem>
+      <IndicatorItem id="319bf3dc-cef0-477a-9a8a-59ade6f385ae" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://l.ead.me/kq3efo</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1258b58e-f796-4802-af09-408efed50305" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">sync-apple.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a1054b52-6c97-46fe-8abf-e311a16a484d" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">acwa-apple.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="97aea4c1-2c6b-4e14-88ae-c1271e48fe5d" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">apple-vpn.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2290908d-0fd4-4b86-8bda-f85d95244419" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">acwa-internal.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e662c68c-4c8b-463c-94c5-08c353841c75" condition="is">
+        <Context document="RouteEntryItem" search="RouteEntryItem/Destination" type="mir" />
+        <Content type="IP">138.68.47.14</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d8aa898c-b204-48ee-993e-866f24e590b4" condition="is">
+        <Context document="RouteEntryItem" search="RouteEntryItem/Destination" type="mir" />
+        <Content type="IP">142.93.3.117</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2e7d0606-20a8-4146-91a9-d61bea48dfaf" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">my-tsl.com/factor.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d8a942a5-bb89-4468-ac0a-ec0b6079f5fb" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">singtel-schedule.com/factor.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2a04c531-9dcb-4a8c-8689-d8d59fd83250" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">gitlabhr.com/factor.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="750fad00-94af-4f63-8d81-1e36b7ed7639" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">vz-help.com/factor.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7319afef-f6c8-46f6-a90b-576063767200" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">orange-sso.com/factor.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="63c62467-8617-49d0-b678-5964e36ade04" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">ee-sso.com/factor.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2d18f339-b0be-4e36-8be5-4e246377fd1c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">singtei.net/factor.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1619b6a4-2dd0-46e9-bcdd-6d15ec7c1b23" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">asurion-idp.com/factor.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ac432fd1-4e0f-4f0e-b7b8-e92472e1abe7" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">entitashe.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c8d3679f-fe59-426c-b8e0-9cafaabf09f9" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">transenil.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cfdad6a2-07ec-494b-9298-90f9ed186e04" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">vn7tr.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b041f054-0129-4a9b-94dd-4b38c19c255e" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">zentriva.su</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ec86fe4a-4c74-42cc-b6f9-7baa41047fa9" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ecispinch.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8898bf3e-efb3-4535-bd53-eadb21a29fb2" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">0n2j.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cecb9a38-b88e-4f9b-ac31-5cd6299096d4" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">clocartro.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5831ca72-a466-4396-b443-056bc1de34ba" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">tubeawelm.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6024a556-0bdc-452c-9c6c-48dedfda7310" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">rblenteledo.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9a6823e3-37ba-4f11-93e8-b4b5025e2724" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">akw15.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="64091abb-ed5d-41f1-94f4-fa46b20aef17" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">tropeyleg.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3db962f9-34f2-4255-893b-54af780925cb" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">1cf8.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a3d8988d-6491-4cf6-b3a6-5b65e59a574e" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://sites.google.com/view/as098i1au-qld-2024</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f12bbd16-501e-465c-ba2b-66850f4653b0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://thelasthunt12.com/zzzzzx/post5.php</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b9175828-8535-4df6-8b4f-f759c2a41a5a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://dunctaussie-auquotamaxed1medicreau.com/clwaumed/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bbc0b801-416c-42bd-b2c1-6429951e03f8" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://renow.top/MyGovnew/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="58194069-5bcc-47b7-b866-f9451afa07dd" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://infostatementincomeautaxtm.ru/Access/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="acade416-7506-431d-baba-0ccef5e7b9a5" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://neweftincomeassesss.top/b</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1c512910-d94c-413d-bfbc-4c725ca5949c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://previewassesment.su/approve/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4e7c9ed9-c468-4102-ad5d-b0905241345f" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://l.ead.me/bzv1Bog</Content>
+      </IndicatorItem>
+      <IndicatorItem id="310e6d7f-c490-49ae-865f-9bd91254434c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://lodgejewulesuppt.mom/info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9f6da60c-9473-464a-b642-cc00d8b1c5c7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://snip.ly/y6j7yn</Content>
+      </IndicatorItem>
+      <IndicatorItem id="17916bfe-ed28-4c2b-8e11-bd0eb9292772" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfOxOQ</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cd0afdbc-097e-460b-8dbd-74f322ea7d06" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://tinyurl.com/49d6mnk</Content>
+      </IndicatorItem>
+      <IndicatorItem id="062f537f-a1cf-4f06-86a0-3c9170ea50df" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://sites.google.com/view/ausnsw0058au-at0-2024</Content>
+      </IndicatorItem>
+      <IndicatorItem id="67ac58eb-a7b2-49a2-9098-bbf1374b50c8" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://log1n0acce.de</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ec44b7d3-5941-4325-8e40-662616a90f53" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://t.ly/joQU8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d6b789f9-25c2-4e1e-8808-8b483a0e4c1c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://your-intermarketingstrategiespolicy.com/1qwQtyhWdpo098SfdsQdcghjtewsxSDDEwfggt/letternow/index1.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="110dd9ac-3d99-4ae2-bf0c-a17ea1efd2ee" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myatostatementau.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9e41975a-b981-46e2-b2da-07ea9ea1f205" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://e.vg/tCjgdhYMZ</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7b9bff5d-1c19-4cfb-b9fc-89c04142cf00" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://conta.cc/3TvKz42</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e9224023-ef56-4e9c-b3e0-ad543ad3388f" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://e.vg/BPeIMFWQLC</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0b0a40f6-2428-4c39-99cc-1ebddbedff47" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://eb9ht.r.ag.d.sendibm3.com/mk/cl/f/sh/OycZvHuFo1eQt9aG0p6jvU76/sFTHLwUshrc-</Content>
+      </IndicatorItem>
+      <IndicatorItem id="54b376a0-620d-4805-9afb-ee98dcd9f5db" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://incrediblebridges.de/online-webpagegov/0638f</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c70f03b8-14fb-4cb5-804d-3d6060692f28" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://incomeverifeidsys.com/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ac88e14f-554f-4ad0-a76c-8c24353b2e25" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://cutt.ly/WeTnjyG0</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2d6feca0-c49e-4654-827d-c81ed60d81df" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://completedigital-signin.cc/home</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a0dfbf3a-6104-4788-a069-ec8727a94e50" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://denverstorage.co/serverdev</Content>
+      </IndicatorItem>
+      <IndicatorItem id="65bf3550-eb10-4b73-b61f-2e0a0cc84e3c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://auvryclaim.de/Aupay</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7c6c638a-30b2-4ba5-90cd-cf9545484861" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://thegvaccporta.de/c/mygov</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d96bc878-95d0-40ef-afc8-a99a29a6b04a" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">synchrosphere.moscow</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b49cf297-2d6f-4ac2-902f-81aa58619fbd" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">novavibefe.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f9026db9-79d6-41ce-ad4d-c6015d75854e" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">fevsciani.ks.ua</Content>
+      </IndicatorItem>
+      <IndicatorItem id="34fc1fea-aca9-46d1-abda-2e2ef20ad123" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">nexusnirvanaa.cbg.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="57e92cbd-9d0d-46a3-a6f1-7401a0e07c8c" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">seeyourballota.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e21ccb52-d114-49d1-9877-cd2e91d069b3" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://aphotocanheal.org/cgi-bin</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7dff446e-1b6c-40b2-88f6-43f0974e8f6c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://secure-myactiveato-profiles.online</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3c6e9055-dcf9-4627-8a61-99ca9fb012f6" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://aeshydro.com/der/php/simple.php</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8ea3679f-c015-4101-a86f-4c552cca0475" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://sec-medi-care-au.ru/hgsggs/log2.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d6cb4bd1-6f53-479e-b547-4bc2233d2361" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://incomestatementmygv.online/home.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="91cb2350-cb59-4526-ba06-4028bbcc1c3b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://austaxoffice.net</Content>
+      </IndicatorItem>
+      <IndicatorItem id="405a484a-47ec-48ec-beb6-822cb81b1ae0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://cdn.dragon.cere.network/635/fs/index.htm</Content>
+      </IndicatorItem>
+      <IndicatorItem id="625fc5fa-fd76-4b7e-8263-d52a6c45799c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://govshost.link/fu/MyGovnew/home.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b29efbb1-4614-4186-b455-afdc8514df3b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://grossdocument.nl/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cc83cc4f-e608-42d6-987e-a624777b0438" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://denverstorage.co/serverdev</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ba503ebc-f665-49a0-9e3b-3ac19062a7b7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://incomestatementaau.info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="18fa3c29-532b-4ec7-9627-dd34b2cb3e50" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">amunayor.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="31029951-bf82-4360-a750-7d017ad6c9af" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">faitespousserunefermeks.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="261b1633-5150-478b-b395-d8a8f4aa33c8" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">dein-abstellplatzko.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f69f48b0-649d-4732-9499-bdcb50824d98" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">urbanlifevibesgo.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d9b5f23b-a07d-4c52-ad0b-a5a0ea3525b5" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://qrcodes.pro/1JaHiC</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fec9ff2c-920d-443a-a48f-2de91dc9eecf" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://govtvvv.weebly.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="96a28a83-0bfa-4cef-b62e-a43fcf1f838c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfPtS9</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e864f1c4-9f6f-42c7-b3ec-440faf3d181a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://mrfloop.com/myGov</Content>
+      </IndicatorItem>
+      <IndicatorItem id="79c36454-c833-4c60-be13-2b6546bec05b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://t.ly/w1TlC</Content>
+      </IndicatorItem>
+      <IndicatorItem id="66bb8c12-c9c1-4337-9e80-173542be4543" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://aicoracks.net/ato/ATO</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a26b955c-df8f-41af-8378-9685bfdc046f" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://atoservice.de</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ec9a2491-51b0-4618-88b5-6c28a382472a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://cutt.ly/YeT8qUDu</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0a11af2f-e448-488c-b24b-0560f797da2b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://mygovadminserver.weebly.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="26f3cf10-7e18-4c70-a7dc-34288833379b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://mygovcodeapp01.weebly.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6e18a3d0-1ce2-450b-83d6-80138548fd44" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://au-medi-caresec.de/auth-Gov/log.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="85b37ce5-aed6-4eae-94ba-65e91f759812" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://online-rvices.de/egbe2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="38084e6a-591f-4b9d-8829-466a8102f496" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://lodgement-aus.online/index/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0f14e398-e27f-4a85-80ae-91c0c6553a7d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://banexverif.de/Au/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8aef029e-7319-4495-b645-54b57f6f41f0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://incomestatementsaau.de/Approved/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4de4be9d-9bef-4a52-8333-022bc9b4d0eb" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://aicoracks.net/ato/ATO/b9420</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7177a9af-72fb-4d40-a1d2-68157cd3b906" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://fraynam.com.au/claims</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1d676c60-cb71-44d0-8674-f53c4330cffd" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://e.vg/NeoUbftfb</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d722db44-e649-4c42-98a5-6846ca77fc93" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://neweftincomeassesss.top/c</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a76cf749-bc47-46be-b9cb-d6ab9a077264" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://myrecordfilesaugov.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="924c35a1-9815-4cbe-ba9e-b888e363bf98" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://ato-statemnetsincome.me</Content>
+      </IndicatorItem>
+      <IndicatorItem id="363be488-d507-48f6-81a9-c7b55ee19cb4" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://supxerannnuttion.de/logon</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f4d6dace-2be4-49a9-9a70-b07d5b3475a7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://yescentreworkforce.com.au</Content>
+      </IndicatorItem>
+      <IndicatorItem id="96af4fa4-643b-492e-bc8d-2ce5a686ba34" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://cubehomed-atcaches.surge.sh</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f9b5f85f-c5fd-4f4c-a142-df4bd9b716ec" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://datacachesr-cube.surge.sh</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f27fc692-5817-49a9-a69c-0dda05ab11dd" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://authenticateatonowonline.de/MyGov/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="35d2376b-5f9a-413c-83ef-efc05b863d90" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://boanova.website.radio.br/admin/mini/cache/web/system/login.php</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7b692d82-4a79-4955-83d8-962d191a674c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://sites.google.com/view/mygov00/home</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8afc9fb5-317e-4228-9d37-28bcad2b0d56" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://ll-h-techs.online</Content>
+      </IndicatorItem>
+      <IndicatorItem id="01b52ba5-8607-483d-86c0-31b80bd9d0c7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://www.norika.com.sg/images/categoriesnew/Supply</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a3af8191-b3f2-4ab3-ab13-069475f3028d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://atorisefund.net/verify/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c1036d77-5b85-433b-8f46-5dbd7605ff7d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myrecordfilesaugov.com/log.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2ee8fea0-d6bf-48f6-8d4e-ce420e0d9d8d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://authenticatemyatoonline.de/myAto/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="478f3a91-b527-4706-90a2-14546d140d92" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://lodgepayserv-online.me/gov</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1bab8eba-0a1f-455f-88af-b7edeafd51c9" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://statementofincome.de/Approved</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bb412947-b543-4b00-825d-421f2c7d765d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://l.ead.me/tomyGovdasboarderrosx</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3e1a97e4-86df-4d1c-8016-40065a1df536" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://snip.ly/xi0yd4</Content>
+      </IndicatorItem>
+      <IndicatorItem id="30b399f4-2195-49d6-b5ad-39a6ef7737d6" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://eautoincomelodgment.me/auth</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bffaf2be-5c24-49c8-b6f9-08c8f5196de2" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://eautoincomelodgment.me/auth/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7594b620-ce1d-49d4-adef-19468fb199b6" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://yescentreworkforce.com.au/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a3a3cd46-4f4c-43ed-91e4-ed55f3bacccd" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://bityl.co/S6hq</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f5c485b0-f529-415b-8fd7-fe32f36604d6" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://end-year-stats.info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="aba9e188-e057-4d37-8316-bfd4c6ac88a6" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://bityl.co/S7FL</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1777d1b3-9166-4fb1-bf3d-b32b83ff83ca" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://olofartv.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cf1dc362-5cb1-450a-9fb0-8c1ace78a0f5" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pendingincomenotification.icu/aus/index2.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d736aec7-14f4-4287-8253-f6e4cd134f50" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://autostatementinfo.de/Access</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f6f5a53d-9602-4562-825d-d06434a85a14" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfPjoU</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8dee8c9d-5483-472e-9202-c214e9b1b9cb" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://lgn-incomassestment.me/authau</Content>
+      </IndicatorItem>
+      <IndicatorItem id="aa3b309c-a5d9-4583-9064-af7c31b47427" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://au-supportconnect.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="44204c33-7d5d-4bd7-99e1-d16c7fad33d6" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">saleesforce.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c8dd3514-387d-495b-9521-adc8af763636" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://e.vg/NeoUbftfb</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e2767772-8078-4831-8d8a-a746d383e775" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://camposcontabilidade.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="820f802b-8326-412c-92da-8bce77cc45b2" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://claim-statement.de/view</Content>
+      </IndicatorItem>
+      <IndicatorItem id="13b32081-e987-48b4-bdf8-8a7d0ebb2a23" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://neweftincomeassesss.top/c</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fbdbf643-8870-4bc3-9844-76a4c84d3f9d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://info-services-au-2024.de/us</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8c21a57f-e8c4-4b13-a07a-8b0b333f9d67" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://dsfdds43.ru/klOax</Content>
+      </IndicatorItem>
+      <IndicatorItem id="77930f70-d748-461e-9321-df2975a76407" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://pendingincomenotification.icu/aus/?utm_source=sniply&amp;utm_campaign=sniply&amp;utm_medium=sniply</Content>
+      </IndicatorItem>
+      <IndicatorItem id="94d0e811-7542-424b-b49f-69b2a9002f24" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfQWzE</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2f1d8140-a3fd-4fee-860f-fe09d793c9fa" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://centraxtraref.com/incometax/index2.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="eef43cfa-03bf-4f42-ab51-ebae6120434a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://atayeshe.com.ng/ore/enar</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2512eb2f-89a5-4076-a43d-2733b9a8a3b7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://app.creatopy.com/share/d/eg7lm1orjxnk</Content>
+      </IndicatorItem>
+      <IndicatorItem id="408c4935-cc96-41f4-ae33-b11134e63fc0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://agenziamagellano.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="967aa93d-0f75-4c12-9bac-af195a7198c7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/8uasrv1</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5bcac156-02d4-4c08-a6e7-eda98e911227" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://exquisitesecure.de/statement/my_Gov/Ato</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d9a78693-36f0-43cb-a52b-1744c01f980e" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://signonservces.com/home</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3722ab02-70a8-4bc8-b32e-a2a45f26b62f" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://onlineauscntrlnk.info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9d932402-4f5d-47d1-b2b4-acb1724c8f57" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://www.norika.com.sg/images/categoriesnew/Supply/norika</Content>
+      </IndicatorItem>
+      <IndicatorItem id="690d73b8-489b-4dbc-8eb5-2d023bbd8e03" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://tariffxations.online/index2.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="98a9ab95-88ee-4bfc-a051-14c8130bff29" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://onlineatoserveu.de</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0f9b11a2-0b2c-4d3f-9a8a-3fe7ab21e0fe" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://atxosallotment.de</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fdd0b1ed-7112-4906-b7c1-b1dcff8bf5da" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myqovato.info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e3d1ae15-e143-46e3-88fc-2486b6c636d0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://hapoalim.de/main/MyGov/index2.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0507f055-ad6d-4cdb-aed9-de3b9d37a8f7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://dcautocarrecovery.ie/u8sxZWc</Content>
+      </IndicatorItem>
+      <IndicatorItem id="efa6cee3-432b-4c3a-b5c3-ca487f137697" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://tesatosgvs.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="dc961b9c-a378-4a47-b734-03bb1fe8eda4" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/centre1w</Content>
+      </IndicatorItem>
+      <IndicatorItem id="467af19a-2947-4406-88b8-b4199a2f4e00" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://authorizedrefundclaim.life/income/MYGOV-ATO</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e8d6c7bc-ccc8-4d67-b922-29349b96ed19" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://qrco.de/bfQ3y9</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6c4ec0e6-abf0-4c7f-a998-3b12a783aa5a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://authatologinlinkingservice.sbs/service.austra.govlink</Content>
+      </IndicatorItem>
+      <IndicatorItem id="99726559-8b55-4174-989a-e94c6a64e190" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrcodes.pro/WeC0k0</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b7336f80-f6d1-4fba-958b-12b1526cd85a" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://mn.svjw6.ru.com/ATOO</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5eca764e-40c6-41d2-bf0d-7a3507877719" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://auforce.pro</Content>
+      </IndicatorItem>
+      <IndicatorItem id="12ee8963-1cda-4ee1-8f55-e78ff88ab3f0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://bf.qdz12.za.com/rrsccunnn</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6a76116d-8237-41c2-b7ae-ca8bf131b211" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://976tep2sg8.vk.com/away.php?to=https%3A%2F%2Fatopfl.es%2Fauth%2F</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9e354c8d-a3f5-4f2b-8d67-0b4cc21384f1" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://atopfl.es/auth</Content>
+      </IndicatorItem>
+      <IndicatorItem id="78403535-d09b-4848-84af-cafd1a24789f" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://denverstorage.co/serverdev</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6f67dea7-ce6a-4efc-8ed0-17169f12558d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://incomestatements.de/Approved</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0c110de7-edd2-4986-8d8e-0e856065e32e" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://frsptecau.online/MyGov</Content>
+      </IndicatorItem>
+      <IndicatorItem id="da880242-8373-40b1-8ee0-aa2a402ad278" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://greagovjobs.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ebc9a0a2-27e1-43fc-be6e-64ed585d5aa8" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://my-gov-profile.org/enter</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6b298ae4-df5e-4313-bc81-190b6c54470b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myauportal.info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="00e75c3b-9278-4625-8218-7a8638582c1b" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">earthherogo.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="47ecba82-c358-4be6-a34d-050dddca51e9" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">decoestilismoko.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="904eaf3b-5d0c-4d23-8d22-bed025cd0ea1" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">churchcopywriteror.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="891e3972-a108-43fd-a5ef-723b834b3b5b" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">quantumlumiorle.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="323fcf37-e355-4281-a1bf-a3465918263e" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">techietrendslifess.ru</Content>
+      </IndicatorItem>
+      <IndicatorItem id="deb0b521-ee1f-4345-b58c-002d5bd43f22" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ccokies2mangoes.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d4393cbe-2ecf-40b4-976c-944247c604a3" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ccokies1cakes.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9cb74ed8-63b6-4a88-88d4-7eb64a2df77e" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ccokies3tomatoes.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2be9eadd-6184-4dfa-a907-f47ff88a5ea1" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://bityl.co/S9ka</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7a5bb564-ceea-4a71-93b5-7a75d6a53483" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://dece-properties.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f504d4d6-ad3e-43f3-b25d-e2d3a3ea2e91" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://l.ead.me/bfPibi65g7efRDY64F87F445yg75</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fcbca017-ebd6-47b4-b43b-36b43c5d85b5" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://servicesnotification.info/myGov</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f3250ea3-59c4-4786-b18f-039c26786888" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://t.ly/Jy6H0</Content>
+      </IndicatorItem>
+      <IndicatorItem id="15009545-8e78-4e72-9c39-b6d1fe20aad8" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://auxtxportcare.online/mgv</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c60d329f-c24d-4a1c-b7c3-5ef9d9dee3f4" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://audirectrefund-pay.top/view/mygov</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e4ed24cc-e67c-473c-860a-65168818b84b" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrco.de/bfQk2s</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4208868a-a300-45ab-b23b-a1d855709a45" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://shorten.ee/g2MpK</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3690406d-0188-4f1e-bb89-bc3c0a286c86" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://noautoreplygroup.ru/mygov</Content>
+      </IndicatorItem>
+      <IndicatorItem id="90f7bc68-b196-4da3-abed-ee951ac3cca7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://t.ly/mhNSN</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9068e647-97d9-4e72-b4e2-3fc0552bb4d0" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://statementlog.online</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1f69dc4c-6f9e-49c8-954d-9665ea62cc29" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://oshashomoni.xyz/gg</Content>
+      </IndicatorItem>
+      <IndicatorItem id="51919e2e-86bc-4236-93b2-92ff1f328510" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://newatosgvs.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="67862b7e-14b7-4a09-b69c-3cd4649515db" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://myau.services/inbox</Content>
+      </IndicatorItem>
+      <IndicatorItem id="084bda6c-390c-40ac-8f4d-a2c6d27990b1" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://year-end-stat.info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cbd909d1-6e18-40e5-803b-0c911b0b047c" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://taxgovau.top/myGOV</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7d38b1b4-be56-47b3-b157-2011fd40bba9" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://qrcodes.pro/8pa4fR</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3b1d01df-07c1-4289-be9a-6a9d6a22ac67" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://elodgementlgn.me/authau</Content>
+      </IndicatorItem>
+      <IndicatorItem id="744e1ac6-c0cb-490c-961a-8fa1e83ce039" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://tria2-gevmycentovbuz.de/myaccount</Content>
+      </IndicatorItem>
+      <IndicatorItem id="19cc7e9c-ff03-4aaa-b7a0-aeb5cdbbcffe" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://tsfpo.com/mygov-inbox.au/index.html#msdynmkt_trackingcontext=873ecfad-cc23-4234-b60b-96a57f1842ae</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ad79d997-c35e-4ff5-8fd6-2cd4d6cff694" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://aicoracks.net/ato/ATO</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e699cba4-a697-426d-bd38-129402c48f4f" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://auspaidlodge.online</Content>
+      </IndicatorItem>
+      <IndicatorItem id="73e39482-7756-4424-bc83-c2d3765817d6" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://feopt-atoref.pro/index.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f36b0e17-dcb9-413e-85b0-5f86efc66fe7" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">http://jamstvo.net/wpi</Content>
+      </IndicatorItem>
+      <IndicatorItem id="83860de8-b3e9-4171-a1c2-a77fe9ea6132" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://sec-cen-tre-link-au.ru/smth/log.html</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5e4ae205-0a99-475b-b1a2-f4281db47b5d" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://your-intermarketingstrategiesnowreset.pro/238jwhJSJdeuuwieu937rjhfijoiwjhiIei93oHQGHUHIDuifhuhdywisdrfg</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e08f937d-7584-4df9-bde4-1ac3283a5462" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://authenticateatoonlinenow.de/myAto</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d50aed5b-3be4-4c87-9d19-9b7850e7a8f4" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string">https://primecrestglobal.ru/Ato-secure/MyGovnew/index.html</Content>
+      </IndicatorItem>
+    </Indicator>
+  </definition>
+</ioc>
