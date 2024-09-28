@@ -1,0 +1,187 @@
+<stix:STIX_Package 
+	xmlns:ORGNAME="https://misp.hydrotasmania.com.au"
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:AccountObj="http://cybox.mitre.org/objects#AccountObject-2"
+	xmlns:ArtifactObj="http://cybox.mitre.org/objects#ArtifactObject-2"
+	xmlns:ASObj="http://cybox.mitre.org/objects#ASObject-1"
+	xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:PortObj="http://cybox.mitre.org/objects#PortObject-2"
+	xmlns:DomainNameObj="http://cybox.mitre.org/objects#DomainNameObject-1"
+	xmlns:EmailMessageObj="http://cybox.mitre.org/objects#EmailMessageObject-2"
+	xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2"
+	xmlns:HTTPSessionObj="http://cybox.mitre.org/objects#HTTPSessionObject-2"
+	xmlns:HostnameObj="http://cybox.mitre.org/objects#HostnameObject-1"
+	xmlns:MutexObj="http://cybox.mitre.org/objects#MutexObject-2"
+	xmlns:PipeObj="http://cybox.mitre.org/objects#PipeObject-2"
+	xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2"
+	xmlns:WinRegistryKeyObj="http://cybox.mitre.org/objects#WinRegistryKeyObject-2"
+	xmlns:WinServiceObj="http://cybox.mitre.org/objects#WinServiceObject-2"
+	xmlns:NetworkConnectionObj="http://cybox.mitre.org/objects#NetworkConnectionObject-2"
+	xmlns:NetworkSocketObj="http://cybox.mitre.org/objects#NetworkSocketObject-2"
+	xmlns:SocketAddressObj="http://cybox.mitre.org/objects#SocketAddressObject-1"
+	xmlns:SystemObj="http://cybox.mitre.org/objects#SystemObject-2"
+	xmlns:ProcessObj="http://cybox.mitre.org/objects#ProcessObject-2"
+	xmlns:X509CertificateObj="http://cybox.mitre.org/objects#X509CertificateObject-2"
+	xmlns:WhoisObj="http://cybox.mitre.org/objects#WhoisObject-2"
+	xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2"
+	xmlns:UnixUserAccountObj="http://cybox.mitre.org/objects#UnixUserAccountObject-2"
+	xmlns:UserAccountObj="http://cybox.mitre.org/objects#UserAccountObject-2"
+	xmlns:WinUserAccountObj="http://cybox.mitre.org/objects#WinUserAccountObject-2"
+	xmlns:CustomObj="http://cybox.mitre.org/objects#CustomObject-1"
+	xmlns:marking="http://data-marking.mitre.org/Marking-1"
+	xmlns:simpleMarking="http://data-marking.mitre.org/extensions/MarkingStructure#Simple-1"
+	xmlns:tlpMarking="http://data-marking.mitre.org/extensions/MarkingStructure#TLP-1"
+	xmlns:et="http://stix.mitre.org/ExploitTarget-1"
+	xmlns:incident="http://stix.mitre.org/Incident-1"
+	xmlns:indicator="http://stix.mitre.org/Indicator-2"
+	xmlns:campaign="http://stix.mitre.org/Campaign-1"
+	xmlns:coa="http://stix.mitre.org/CourseOfAction-1"
+	xmlns:ttp="http://stix.mitre.org/TTP-1"
+	xmlns:ta="http://stix.mitre.org/ThreatActor-1"
+	xmlns:stixCommon="http://stix.mitre.org/common-1"
+	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
+	xmlns:ciqIdentity="http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1"
+	xmlns:snortTM="http://stix.mitre.org/extensions/TestMechanism#Snort-1"
+	xmlns:yaraTM="http://stix.mitre.org/extensions/TestMechanism#YARA-1"
+	xmlns:stix="http://stix.mitre.org/stix-1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
+	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
+	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 id="ORGNAME:STIXPackage-c8744359-31ac-490e-805e-f8704e36c766" version="1.1.1" timestamp="2024-09-28T04:32:55.786487">
+    <stix:STIX_Header>
+        <stix:Title>Export from ORGNAME's MISP</stix:Title>
+        <stix:Package_Intent xsi:type="stixVocabs:PackageIntentVocab-1.0">Threat Report</stix:Package_Intent>
+    </stix:STIX_Header>
+    <stix:Related_Packages>
+        <stix:Related_Package>
+            <stix:Package id="ORGNAME:STIXPackage-94a84ab2-297c-48c5-9a1f-1b37a6826573" version="1.1.1" timestamp="2024-09-26T00:49:27+00:00">
+                <stix:STIX_Header>
+                    <stix:Title>Export from CTIS's MISP</stix:Title>
+                    <stix:Package_Intent xsi:type="stixVocabs:PackageIntentVocab-1.0">Threat Report</stix:Package_Intent>
+                </stix:STIX_Header>
+                <stix:TTPs>
+                    <stix:TTP id="ORGNAME:TTP-f9cc4d06-775f-4ee1-b401-4e2cc0da30ba" timestamp="2024-09-28T04:32:55.123588+00:00" xsi:type='ttp:TTPType'>
+                        <ttp:Title>Attack Pattern (MISP Galaxy)</ttp:Title>
+                        <ttp:Behavior>
+                            <ttp:Attack_Patterns>
+                                <ttp:Attack_Pattern id="ORGNAME:AttackPattern-f9cc4d06-775f-4ee1-b401-4e2cc0da30ba">
+                                    <ttp:Title>Domains - T1584.001</ttp:Title>
+                                    <ttp:Description>Adversaries may hijack domains and/or subdomains that can be used during targeting. Domain registration hijacking is the act of changing the registration of a domain name without the permission of the original registrant.(Citation: ICANNDomainNameHijacking) Adversaries may gain access to an email account for the person listed as the owner of the domain. The adversary can then claim that they forgot their password in order to make changes to the domain registration. Other possibilities include social engineering a domain registration help desk to gain access to an account or taking advantage of renewal process gaps.(Citation: Krebs DNS Hijack 2019)
+
+Subdomain hijacking can occur when organizations have DNS entries that point to non-existent or deprovisioned resources. In such cases, an adversary may take control of a subdomain to conduct operations with the benefit of the trust associated with that domain.(Citation: Microsoft Sub Takeover 2020)
+
+Adversaries who compromise a domain may also engage in domain shadowing by creating malicious subdomains under their control while keeping any existing DNS records. As service will not be disrupted, the malicious subdomains may go unnoticed for long periods of time.(Citation: Palo Alto Unit 42 Domain Shadowing 2022)</ttp:Description>
+                                </ttp:Attack_Pattern>
+                            </ttp:Attack_Patterns>
+                        </ttp:Behavior>
+                    </stix:TTP>
+                    <stix:TTP id="ORGNAME:TTP-a62a8db3-f23a-4d8f-afd6-9dbc77e7813b" timestamp="2024-09-28T04:32:55.124893+00:00" xsi:type='ttp:TTPType'>
+                        <ttp:Title>Attack Pattern (MISP Galaxy)</ttp:Title>
+                        <ttp:Behavior>
+                            <ttp:Attack_Patterns>
+                                <ttp:Attack_Pattern id="ORGNAME:AttackPattern-a62a8db3-f23a-4d8f-afd6-9dbc77e7813b">
+                                    <ttp:Title>Phishing - T1566</ttp:Title>
+                                    <ttp:Description>Adversaries may send phishing messages to gain access to victim systems. All forms of phishing are electronically delivered social engineering. Phishing can be targeted, known as spearphishing. In spearphishing, a specific individual, company, or industry will be targeted by the adversary. More generally, adversaries can conduct non-targeted phishing, such as in mass malware spam campaigns.
+
+Adversaries may send victims emails containing malicious attachments or links, typically to execute malicious code on victim systems. Phishing may also be conducted via third-party services, like social media platforms. Phishing may also involve social engineering techniques, such as posing as a trusted source, as well as evasive techniques such as removing or manipulating emails or metadata/headers from compromised accounts being abused to send messages (e.g., [Email Hiding Rules](https://attack.mitre.org/techniques/T1564/008)).(Citation: Microsoft OAuth Spam 2022)(Citation: Palo Alto Unit 42 VBA Infostealer 2014) Another way to accomplish this is by forging or spoofing(Citation: Proofpoint-spoof) the identity of the sender which can be used to fool both the human recipient as well as automated security tools.(Citation: cyberproof-double-bounce) 
+
+Victims may also receive phishing messages that instruct them to call a phone number where they are directed to visit a malicious URL, download malware,(Citation: sygnia Luna Month)(Citation: CISA Remote Monitoring and Management Software) or install adversary-accessible remote management tools onto their computer (i.e., [User Execution](https://attack.mitre.org/techniques/T1204)).(Citation: Unit42 Luna Moth)</ttp:Description>
+                                </ttp:Attack_Pattern>
+                            </ttp:Attack_Patterns>
+                        </ttp:Behavior>
+                    </stix:TTP>
+                </stix:TTPs>
+                <stix:Incidents>
+                    <stix:Incident id="ORGNAME:Incident-94a84ab2-297c-48c5-9a1f-1b37a6826573" timestamp="2024-09-26T00:49:27+00:00" xsi:type='incident:IncidentType'>
+                        <incident:Title>Impersonation Domain</incident:Title>
+                        <incident:External_ID source="MISP Event">1336</incident:External_ID>
+                        <incident:Time>
+                            <incident:Incident_Discovery precision="second">2024-09-19T00:00:00+00:00</incident:Incident_Discovery>
+                        </incident:Time>
+                        <incident:Reporter>
+                            <stixCommon:Identity>
+                                <stixCommon:Name>CTIS</stixCommon:Name>
+                            </stixCommon:Identity>
+                        </incident:Reporter>
+                        <incident:Status xsi:type="stixVocabs:IncidentStatusVocab-1.0">New</incident:Status>
+                        <incident:Related_Indicators>
+                            <incident:Related_Indicator>
+                                <stixCommon:Relationship>Network activity</stixCommon:Relationship>
+                                <stixCommon:Indicator id="ORGNAME:Indicator-44204c33-7d5d-4bd7-99e1-d16c7fad33d6" timestamp="2024-09-25T22:11:08+00:00" xsi:type='indicator:IndicatorType'>
+                                    <indicator:Title>Network activity: saleesforce.com (MISP Attribute)</indicator:Title>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Domain Watchlist</indicator:Type>
+                                    <indicator:Description>Domain previously used for javascript full screen phishing attempts</indicator:Description>
+                                    <indicator:Valid_Time_Position/>
+                                    <indicator:Observable id="ORGNAME:Observable-44204c33-7d5d-4bd7-99e1-d16c7fad33d6">
+                                        <cybox:Object id="ORGNAME:DomainName-44204c33-7d5d-4bd7-99e1-d16c7fad33d6">
+                                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                                <DomainNameObj:Value condition="Equals">saleesforce.com</DomainNameObj:Value>
+                                            </cybox:Properties>
+                                        </cybox:Object>
+                                    </indicator:Observable>
+                                    <indicator:Handling>
+                                        <marking:Marking>
+                                            <marking:Marking_Structure xsi:type='tlpMarking:TLPMarkingStructureType' color="WHITE"/>
+                                            <marking:Marking_Structure xsi:type='simpleMarking:SimpleMarkingStructureType'>
+                                                <simpleMarking:Statement>admiralty-scale:information-credibility="3"</simpleMarking:Statement>
+                                            </marking:Marking_Structure>
+                                        </marking:Marking>
+                                    </indicator:Handling>
+                                    <indicator:Confidence timestamp="2024-09-25T22:11:08+00:00">
+                                        <stixCommon:Value>High</stixCommon:Value>
+                                        <stixCommon:Description>Derived from MISP's IDS flag. If an attribute is marked for IDS exports, the confidence will be high, otherwise none</stixCommon:Description>
+                                    </indicator:Confidence>
+                                    <indicator:Producer>
+                                        <stixCommon:Identity>
+                                            <stixCommon:Name>CTIS</stixCommon:Name>
+                                        </stixCommon:Identity>
+                                    </indicator:Producer>
+                                </stixCommon:Indicator>
+                            </incident:Related_Indicator>
+                        </incident:Related_Indicators>
+                        <incident:Leveraged_TTPs>
+                            <incident:Leveraged_TTP>
+                                <stixCommon:Relationship>Attack Pattern</stixCommon:Relationship>
+                                <stixCommon:TTP idref="ORGNAME:TTP-f9cc4d06-775f-4ee1-b401-4e2cc0da30ba" xsi:type='ttp:TTPType'/>
+                            </incident:Leveraged_TTP>
+                            <incident:Leveraged_TTP>
+                                <stixCommon:Relationship>Attack Pattern</stixCommon:Relationship>
+                                <stixCommon:TTP idref="ORGNAME:TTP-a62a8db3-f23a-4d8f-afd6-9dbc77e7813b" xsi:type='ttp:TTPType'/>
+                            </incident:Leveraged_TTP>
+                        </incident:Leveraged_TTPs>
+                        <incident:History>
+                            <incident:History_Item>
+                                <incident:Journal_Entry time_precision="second">Event Threat Level: High</incident:Journal_Entry>
+                            </incident:History_Item>
+                            <incident:History_Item>
+                                <incident:Journal_Entry time_precision="second">MISP Tag: misp:tool="MISP-STIX-Converter"</incident:Journal_Entry>
+                            </incident:History_Item>
+                            <incident:History_Item>
+                                <incident:Journal_Entry time_precision="second">Attribute (Other - comment): These Indicators of Compromise (IOCs) have been reported by a member of the CTIS Community and represent a point in time event. IOCs may be part of globally known infrastructure or may no longer be malicious after this point in time. We recommend that consumers of this threat intelligence perform their own analysis to determine their confidence in these IOCs and the corresponding course of action.</incident:Journal_Entry>
+                            </incident:History_Item>
+                        </incident:History>
+                        <incident:Information_Source>
+                            <stixCommon:Identity>
+                                <stixCommon:Name>Hydro Tasmania</stixCommon:Name>
+                            </stixCommon:Identity>
+                        </incident:Information_Source>
+                        <incident:Handling>
+                            <marking:Marking>
+                                <marking:Marking_Structure xsi:type='tlpMarking:TLPMarkingStructureType' color="WHITE"/>
+                                <marking:Marking_Structure xsi:type='simpleMarking:SimpleMarkingStructureType'>
+                                    <simpleMarking:Statement>admiralty-scale:information-credibility="3"</simpleMarking:Statement>
+                                </marking:Marking_Structure>
+                            </marking:Marking>
+                        </incident:Handling>
+                    </stix:Incident>
+                </stix:Incidents>
+            </stix:Package>
+        </stix:Related_Package>
+    </stix:Related_Packages>
+</stix:STIX_Package>
